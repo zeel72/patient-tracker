@@ -1,6 +1,5 @@
+import "dotenv/config";
 import express from "express";
-import dotenv from "dotenv";
-dotenv.config();
 import { authenticate } from "./middleware/authMiddleware.js";
 // auth
 import signup from "./auth/signup.js";
